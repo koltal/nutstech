@@ -1,0 +1,161 @@
+body{
+  background-color: #EFF7FF;
+}
+.Header-Section{
+
+  /* background-color: aquamarine; */
+  /* color: white; */
+ 
+  display: grid;
+  grid-template-columns: repeat(2,1fr)
+}
+.Nav-Logo{
+  display: flex;
+  padding-left: 12px;
+  /* background-color: red; */
+
+}
+.Nav-Logo h3 {
+  /* color: blue; */
+  /* padding-left: 12px; */
+  font-weight: bolder;
+}
+.Nav-Items{
+  padding-top: 25px;
+  /* background-color: yellowgreen; */
+ 
+}
+.Nav-Items nav a {
+  padding: 20px;
+  color: black;
+  font-weight: light;
+  text-decoration: none;
+  
+}
+.Nav-Items nav{
+  float: right;
+ 
+}
+.contact-btn{
+  background-color: blue;
+  color: white;
+  height: 35px;
+  border-radius: 7px;
+ padding-right: 12px;
+}
+.Overall-Main-Section-Container{
+  margin-top: 100px;
+}
+.Main-Section-Container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  margin: 0 auto;
+  width: 80%;
+}
+.Main-Content-writeup{
+  /* background-color: yellow; */
+  padding-top: 50px;
+}
+.h1-block h1{
+  font-size: 40px;
+}
+.Learn-More-Container{
+  align-items: center;
+  justify-content: center;
+}
+.Learn-More-Btn{
+  background-color: blue;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius:8px;
+  text-align: center;
+
+}
+.Overall-Container-Products{
+  background-color: white;
+}
+.Container-Products{
+  padding-top: 30px;
+  margin: 0 auto;
+  width: 80%;
+}
+.Container-Products h2{
+  text-align: center;
+  font-size: 32px;
+}
+.Product-Card-Container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 20px;
+}
+.Card-Products{
+  background-color: #f8f8f9;
+  padding: 25px;
+  border-radius: 5px;
+ 
+}
+.Learn-More-Btn-Container{
+  padding-top: 12px;
+}
+.Overall-Solutions-Container{
+  margin: 0 auto;
+  width: 90%;
+}
+.Solutions-Container h3{
+  text-align: center;
+  font-size: 32px;
+}
+.Solutions-Card-Container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  width: 90%;
+  grid-gap: 20px;
+  padding-bottom: 30px;
+}
+.Solution-Card{
+  background-color: white;
+  padding: 15px;
+}
+.Overall-Container-Testimonials{
+  background-color: white;
+  padding: 25px;
+  margin-bottom: 40px;
+}
+.Testimonial-Card-Container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.Testimonial-Card{
+  background-color: #EFF7FF;
+  padding: 20px;
+  border-bottom-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+.Testimonial-name-image-container{
+  display: flex;
+}
+.Testimo-name{
+  padding-top: 25px;
+  padding-left: 25px;
+  font-weight: bold;
+  /* color: blue; */
+}
+.Overall-Footer-Container{
+  background-color: black;
+  height: 400px;
+  color: white;
+}
+.Footer-Container{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  margin: 0 auto;
+  width: 80%;
+  grid-gap: 40px;
+  padding-top: 100px;
+}
