@@ -11,14 +11,14 @@ const Testimonials = () => {
                 <div className="Testimonial-Card">
                     
                     <div>
-                        <span>
+                        <span className='Testimony-Remark'>
                             Nutscoders have provided the software products
                             that have leverage our school from traditional ways
                             of doing things to modern 
                         </span>
                     </div>
                     <div className='Testimonial-name-image-container'>
-                    <img src={noble} alt="" srcset=""width='50px' height='50px' />
+                    <img className='Testimonial-image' src={noble} alt="" srcset=""width='50px' height='50px' />
                     <span className='Testimo-name'>Noble Intellects Academy</span>
                     </div>
                 </div>

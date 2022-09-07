@@ -1,11 +1,16 @@
 body{
   background-color: #EFF7FF;
+  /* width: 100%; */
 }
 .Header-Section{
-
+  background-color: #EFF7FF;
   /* background-color: aquamarine; */
   /* color: white; */
- 
+ /* background-color: white; */
+ position: fixed;
+ width: 100%;
+ top: 0px;
+ overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2,1fr)
 }
@@ -14,6 +19,10 @@ body{
   padding-left: 12px;
   /* background-color: red; */
 
+}
+.Nav-Logo a{
+  text-decoration: none;
+  color: black;
 }
 .Nav-Logo h3 {
   /* color: blue; */
@@ -96,7 +105,14 @@ body{
   background-color: #f8f8f9;
   padding: 25px;
   border-radius: 5px;
+  
  
+}
+.Card-Products:hover{
+   /* background-color: #EFF7FF; */
+  background-color: #f8f8f9;
+ /* color: white; */
+ box-shadow: 0 0 9px 3px rgba(59, 59, 59, 0.2);
 }
 .Learn-More-Btn-Container{
   padding-top: 12px;
@@ -118,11 +134,14 @@ body{
   padding-bottom: 30px;
 }
 .Solution-Card{
+  box-shadow: 0 0 9px 3px rgba(132, 131, 131, 0.2);
   background-color: white;
   padding: 15px;
 }
 .Overall-Container-Testimonials{
-  background-color: white;
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  /* background-color: white; */
+  background-color: lightblue;
   padding: 25px;
   margin-bottom: 40px;
 }
@@ -132,19 +151,30 @@ body{
   grid-gap: 20px;
 }
 .Testimonial-Card{
-  background-color: #EFF7FF;
+  background-color: white;
+  /* background-color: #EFF7FF; */
   padding: 20px;
   border-bottom-right-radius: 12px;
   border-top-left-radius: 12px;
 }
 .Testimonial-name-image-container{
   display: flex;
+  border-top: 1px solid #dddd;
+  margin: 0 auto;
 }
 .Testimo-name{
   padding-top: 25px;
   padding-left: 25px;
   font-weight: bold;
   /* color: blue; */
+}
+.Testimonial-image{
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  margin-top: 20px;
+}
+.Testimony-Remark{
+  line-height: 30px;
 }
 .Overall-Footer-Container{
   background-color: black;
@@ -158,4 +188,12 @@ body{
   width: 80%;
   grid-gap: 40px;
   padding-top: 100px;
+}
+.Footer-Container li {
+  padding: 12px;
+  list-style-type: none;
+  font-weight: lighter;
+}
+.Footer-Container li:hover{
+  font-weight: bolder;
 }
