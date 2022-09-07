@@ -21,7 +21,7 @@ const Main = () => {
                     
                 </div>
                 <div>
-                <img src={undraw} alt="" srcset=""width='600px' height='350px' />
+                <img className='Home-display-pic' src={undraw} alt="" srcset=""width='600px' height='350px' />
                 </div>
             </div>
             <Products />

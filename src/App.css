@@ -178,12 +178,12 @@ body{
 }
 .Overall-Footer-Container{
   background-color: black;
-  height: 400px;
+  /* height: 400px; */
   color: white;
 }
 .Footer-Container{
   display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
   width: 80%;
   grid-gap: 40px;
@@ -197,3 +197,69 @@ body{
 .Footer-Container li:hover{
   font-weight: bolder;
 }
+
+
+/* phone view code css 
+starts here.........*/
+
+@media screen and (max-width: 550px){
+
+  /* .Header-Section{
+  display: grid;
+  grid-template-columns: repeat(1,1fr)
+
+  } */
+  .Nav-Items{
+    display: none;
+    /* padding-top: 25px; */
+    /* background-color: yellowgreen; */
+   
+  }
+  .Home-display-pic{
+    width: auto;
+    height: 200px;
+  }
+
+  .Overall-Main-Section-Container{
+    margin-top: 100px;
+  }
+  .Main-Section-Container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 0 auto;
+    width: 90%;
+  }
+  .Main-Content-writeup{
+    /* background-color: yellow; */
+    padding-top: 50px;
+  }
+  .h1-block h1{
+    font-size: 20px;
+  }
+  .Product-Card-Container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin: 0 auto;
+    width: 90%;
+    padding-bottom: 20px;
+  }
+  .Solutions-Card-Container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    width: 90%;
+    grid-gap: 20px;
+    padding-bottom: 30px;
+  }
+  .Testimonial-Card-Container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+  }
+  .Footer-Container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+  
