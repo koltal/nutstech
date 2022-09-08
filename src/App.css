@@ -72,6 +72,9 @@ body{
   align-items: center;
   justify-content: center;
 }
+.Learn-More-Btn-Container{
+ align-content: center;
+}
 .Learn-More-Btn{
   background-color: blue;
   color: white;
@@ -253,10 +256,16 @@ starts here.........*/
     grid-gap: 20px;
     padding-bottom: 30px;
   }
+  .Solution-Card h2{
+    font-size: 20px;
+  }
   .Testimonial-Card-Container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 20px;
+  }
+  .Testimonial-Container h2{
+    font-size: 22px;
   }
   .Footer-Container{
     display: grid;

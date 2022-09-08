@@ -18,10 +18,11 @@ const Footer = () => {
                             <h3>Company</h3>
                         </div>
                         <div>
+                             <li>Home</li>
+                            <li>About</li>
                             <li>Products</li>
-                            <li>Products</li>
-                            <li>Products</li>
-                            <li>Products</li>
+                            <li>Contact</li>
+                            
                         </div>
                     </div>
                 </div>
@@ -36,6 +37,14 @@ const Footer = () => {
                             <li>HRMS</li>
                             <li>Trackers</li>
                         </div>
+                    </div>
+                </div>
+                <div>
+                    <div><h3>Legal</h3></div>
+                    <div>
+                        <p>2022 Nutscoder Products</p>
+                        
+                        <p>Give us a call on <strong>+2348140409672</strong></p>
                     </div>
                 </div>
             </div>
