@@ -16,7 +16,7 @@ function App() {
              <div className='Header-Section'>
                 <div className='Nav-Logo'>
                 {/* <img src={logo} alt="" srcset=""width='70px' height='50px' /> */}
-                    <Link to='home'>  <h3>Nutscoders</h3></Link>
+                    <Link to='/'>  <h3>Nutscoders</h3></Link>
                   
                    
                         
