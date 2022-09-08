@@ -316,5 +316,24 @@ starts here.........*/
     list-style-type: none;
     font-weight: lighter;
   }
+
+
+
+
+  /* about us phone view css */
+  .About-Container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 90px;
+    margin: 0 auto;
+    width: 90%;
+  }
+  .Team-Card-Container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+    grid-gap: 20px;
+    align-items: center;
+  }
 }
   
