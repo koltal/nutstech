@@ -1,3 +1,4 @@
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 const Footer = () => {
     return ( 
         <div className="Overall-Footer-Container">
@@ -19,7 +20,7 @@ const Footer = () => {
                         </div>
                         <div>
                              <li>Home</li>
-                            <li>About</li>
+                             <Link to='about'>About</Link>
                             <li>Products</li>
                             <li>Contact</li>
                             

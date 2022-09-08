@@ -201,7 +201,47 @@ body{
   font-weight: bolder;
 }
 
+/* About us page  css begins here*/
+.About-Container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 100px;
+  margin: 0 auto;
+  width: 80%;
+}
+.Team-Card-Container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  grid-gap: 30px;
+  align-items: center;
+}
+.Team-Card{
+  background-color: white;
+  padding: 20px;
+  justify-content: center;
+  box-shadow: 0 0 9px 3px rgba(132, 131, 131, 0.2);
+  
 
+}
+.Team-header h2{
+  text-align: center;
+  font-size: 32px;
+}
+
+.Team-img{
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  align-self: center;
+}
+.Team-Member-Name{
+  font-size: 20px;
+  padding: 10px;
+}
+.Team-Member-Role{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /* phone view code css 
 starts here.........*/
 
