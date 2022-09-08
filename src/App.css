@@ -7,10 +7,10 @@ body{
   /* background-color: aquamarine; */
   /* color: white; */
  /* background-color: white; */
- /* position: fixed;
+ position: fixed;
  width: 100%;
  top: 0px;
- overflow: hidden; */
+ overflow: hidden;
   display: grid;
   grid-template-columns: repeat(2,1fr)
 }
@@ -341,6 +341,7 @@ starts here.........*/
   .About-display-img{
     width: 300px;
     height: 350px;
+    align-self: center;
   
   }
   .Team-Card-Container{
