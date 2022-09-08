@@ -15,7 +15,7 @@ const AboutCompany = () => {
                     </div>
                 </div>
                 <div>
-                <img className='Home-display-pic' src={about} alt="" srcset=""width='600px' height='350px' />
+                <img className='About-display-img' src={about} alt=""  />
                 </div>
                 {/* <div>
                     <h2>Our Awesome Team</h2>
