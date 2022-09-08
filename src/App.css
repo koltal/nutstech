@@ -339,17 +339,33 @@ starts here.........*/
     width: 90%;
   }
   .About-display-img{
+    display: none;
     width: 300px;
     height: 350px;
     align-self: center;
   
   }
+  .Overall-Team-Container{
+    background-color: white;
+    /* height: 300px; */
+    padding-top: 20px;
+  }
   .Team-Card-Container{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     padding: 20px;
-    grid-gap: 20px;
+    grid-gap: 10px;
     align-items: center;
+    background-color: white;
   }
+  .Team-Card{
+    background-color: white;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 0 0 9px 3px rgba(220, 220, 220, 0.2);
+    
+  
+  }
+  
 }
   

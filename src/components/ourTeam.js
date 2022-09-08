@@ -3,8 +3,8 @@ import musty from './musty.jpeg';
 import mubarak from './mubarak.jpeg';
 const Teams = () => {
     return ( 
-        <div>
-            <div>
+        <div >
+            <div className='Overall-Team-Container'>
                <div className='Team-header'>
                    <h2>Meet our awesome Team</h2> 
                 </div> 
