@@ -326,7 +326,7 @@ starts here.........*/
     grid-template-columns: repeat(1, 1fr);
     padding-top: 90px;
     margin: 0 auto;
-    width: 100%;
+    width: 70%;
   }
   .Team-Card-Container{
     display: grid;
