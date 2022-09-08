@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import logo from './logo.svg';
+import nutscoders from './components/nutscoders.png';
+import logo from './components/logo.png';
 import './App.css';
 import Home from './components/Home';
 import Main from './components/main'
@@ -15,16 +16,16 @@ function App() {
              <div className='Header-Section'>
                 <div className='Nav-Logo'>
                 {/* <img src={logo} alt="" srcset=""width='70px' height='50px' /> */}
-                    <Link to='home'><h3>NUTSCODERS TECH</h3></Link>
-                   
+                    <Link to='home'>  <h3>Nutscoders</h3></Link>
+                  
                    
                         
                     
                 </div>
                 <div className='Nav-Items'>
                     <nav>
-                        {/* <Link to='home'>Home</Link> */}
-                        <Link to='home'>Company</Link>
+                        {/* <Link to=''>Home</Link> */}
+                        <Link to=''>Company</Link>
                         <Link to='productPage'>Product</Link>
                         <Link to='about'>About</Link>
                         <Link className='contact-btn' to='contact'>Contact</Link>
@@ -32,7 +33,7 @@ function App() {
                 </div>
                 </div>
                 <Routes>
-                <Route path='/home' element={<Home/>}/>
+                <Route path='/' element={<Home/>}/>
                 <Route path='/productPage' element={<productPage/>}/>
                 <Route path='/about' element={<AboutPage/>}/>
                 <Route path='/contact' element={<contactPage/>}/>
