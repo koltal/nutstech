@@ -271,5 +271,10 @@ starts here.........*/
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
+  .Footer-Container li {
+    padding: 7px;
+    list-style-type: none;
+    font-weight: lighter;
+  }
 }
   
