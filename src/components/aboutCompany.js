@@ -1,4 +1,5 @@
 import about from './about1.svg';
+import about1 from './about.svg';
 const AboutCompany = () => {
     return ( 
         <div>
@@ -15,7 +16,7 @@ const AboutCompany = () => {
                     </div>
                 </div>
                 <div>
-                <img className='About-display-img' src={about} alt=""  />
+                <img className='About-display-img' src={about1} alt=""  />
                 </div>
                 {/* <div>
                     <h2>Our Awesome Team</h2>

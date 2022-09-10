@@ -3,11 +3,11 @@ import nutscoders from './components/nutscoders.png';
 import logo from './components/logo.png';
 import './App.css';
 import Home from './components/Home';
-import Main from './components/main'
-import Solution from './components/solutions';
-import Testimonials from './components/testimony';
 import AboutPage from './components/about';
 import Footer from './components/footer';
+import Products from './components/products';
+import ProdutsIntro from './components/products_intro';
+
 
 function App() {
   return (
@@ -26,7 +26,7 @@ function App() {
                     <nav>
                         {/* <Link to=''>Home</Link> */}
                         <Link to=''>Company</Link>
-                        <Link to='productPage'>Product</Link>
+                        <Link to='products'>Product</Link>
                         <Link to='about'>About</Link>
                         <Link className='contact-btn' to='contact'>Contact</Link>
                     </nav>
@@ -34,7 +34,7 @@ function App() {
                 </div>
                 <Routes>
                 <Route path='/' element={<Home/>}/>
-                <Route path='/productPage' element={<productPage/>}/>
+                <Route path='/products' element={<Products/>}/>
                 <Route path='/about' element={<AboutPage/>}/>
                 <Route path='/contact' element={<contactPage/>}/>
                 </Routes>

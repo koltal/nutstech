@@ -1,18 +1,18 @@
 // import pic1 from './pic1.png';
 import undraw from './designer.svg';
-import Home_Products from './home_products';
 
-const Main = () => {
+
+const ProdutsIntro = () => {
     return ( 
         <div className='Overall-Main-Section-Container'>
             <div className="Main-Section-Container">
                 <div className='Main-Content-writeup'>
                     <div className='h1-block'>
-                    <h1>Solving Problems through First Class Technology solutions</h1>
+                    <h1>Explore our Simple and Impactful Solutions</h1>
                     </div>
                    <div>
-                   <p>Providing the best software solutions, teaching
-                        and learning experience to educators, students and
+                   <p>We are on a mission to provide the BEST school administration,
+                        teaching and learning experience to educators, students and
                         parents through innovative software and technology</p>
                    </div>
                    <div className='Learn-More-Container'>
@@ -24,10 +24,10 @@ const Main = () => {
                 <img className='Home-display-pic' src={undraw} alt="" srcset=""width='600px' height='350px' />
                 </div>
             </div>
-            <Home_Products />
+           
         </div>
 
      );
 }
  
-export default Main;
+export default ProdutsIntro;

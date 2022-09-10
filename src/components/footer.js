@@ -20,8 +20,8 @@ const Footer = () => {
                         </div>
                         <div>
                              <li>Home</li>
-                             <Link to='about'>About</Link>
-                            <li>Products</li>
+                             <Link to='about'>About</Link><br></br>
+                             <Link to='products'>Product</Link>
                             <li>Contact</li>
                             
                         </div>
