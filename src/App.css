@@ -397,13 +397,20 @@ starts here.........*/
     margin: 0 auto;
     width: 90%;
     padding: 20px;
+    /* font-size: 14px; */
+    font-family:Inter, sans-serif;
    
     
     /* background-color: red; */
   }
+  .Products-Detail-Container h2{
+    font-size: 17px;
+  }
   .Products-Detail-Container-Overall{
-    background: rgb(34,193,195);
-  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    /* background: rgb(34,193,195);
+  background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+  /* background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%); */
+  background: white;
    
   }
   
