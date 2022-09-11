@@ -73,7 +73,7 @@ body{
 }
 .Nav-Logo{
   display: flex;
-  padding-left: 12px;
+  padding-left: 52px;
   /* background-color: red; */
 
 }
@@ -83,6 +83,8 @@ body{
 }
 .Nav-Logo h3 {
   padding-top: 7px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ 
   /* color: blue; */
   /* padding-left: 12px; */
   font-weight: bolder;
@@ -213,7 +215,7 @@ body{
 .Overall-Container-Testimonials{
   /* background-color: rgba(255, 255, 255, 0.2); */
   /* background-color: white; */
-  background-color: lightblue;
+  background-color: white;
   padding: 25px;
   margin-bottom: 40px;
 }
@@ -228,6 +230,7 @@ body{
   padding: 20px;
   border-bottom-right-radius: 12px;
   border-top-left-radius: 12px;
+  border: 1px solid #ddd;
 }
 .Testimonial-name-image-container{
   display: flex;
@@ -357,6 +360,12 @@ starts here.........*/
     /* padding-top: 25px; */
     /* background-color: yellowgreen; */
    
+  }
+  .Nav-Logo{
+    
+    padding-left: 12px;
+    /* background-color: red; */
+  
   }
   .Menu-Icon-Container{
     float: right;
