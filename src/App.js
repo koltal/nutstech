@@ -85,10 +85,10 @@ function App() {
                        <div className='Modal_Container'>
                         <span><CloseIcon onClick={closeModal}></CloseIcon></span>
                         <div>
-                        <Link to=''>Company</Link><br></br>
-                        <Link to='products'>Product</Link><br></br>
-                        <Link to='about'>About</Link><br></br>
-                        <Link className='contact-btn' to='contact'>Contact</Link><br></br>
+                        <Link to='' onClick={closeModal}>Company</Link><br></br>
+                        <Link to='products' onClick={closeModal}>Product</Link><br></br>
+                        <Link to='about' onClick={closeModal}>About</Link><br></br>
+                        <Link className='contact-btn' onClick={closeModal} to='contact'>Contact</Link><br></br>
                         </div>
                        </div>
                       </Modal>
