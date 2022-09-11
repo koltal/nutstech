@@ -4,7 +4,7 @@ import Modal from 'react-modal';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import React, { useState } from "react"
-import logo1 from './logo1.png';
+import logo1 from './logo2.png';
 
 
 // const customStyles = {

@@ -1,4 +1,5 @@
 import background from './background.png';
+import HRMSLOGO from './HRMSLOGO.png';
 import {  Link } from 'react-router-dom';
 const Home_Products = () => {
     return ( 
@@ -59,7 +60,8 @@ const Home_Products = () => {
                 <div className="Card-Products">
                     <div>
                         <div>
-                            <h2>HRMS</h2>
+                            {/* <h2>HRMS</h2> */}
+                            <img src={HRMSLOGO} width='70%' height='100px'/>
                         </div>
                         <div>
                             <span>Business is made
