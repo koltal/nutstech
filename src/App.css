@@ -56,7 +56,9 @@ body{
 .Modal_Container a {
   padding: 32px;
 }
-
+.Nuts-Logo{
+  padding-top: 12px;
+}
 .Header-Section{
   background-color: #EFF7FF;
   /* background-color: aquamarine; */
