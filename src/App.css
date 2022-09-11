@@ -45,6 +45,10 @@ body{
   float: right;
  
 }
+.Menu-Icon-Container{
+  opacity: 0.01;
+  display: hidden;
+}
 /* .contact-btn{
   background-color: blue;
   color: white;
@@ -283,11 +287,16 @@ starts here.........*/
   grid-template-columns: repeat(1,1fr)
 
   } */
-  .Nav-Items{
+  .Nav-Items nav{
     display: none;
     /* padding-top: 25px; */
     /* background-color: yellowgreen; */
    
+  }
+  .Menu-Icon-Container{
+    float: right;
+    opacity: 1;
+    padding-right: 5px;
   }
   .Home-display-pic{
     padding: 24px;

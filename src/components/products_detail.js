@@ -43,6 +43,16 @@ const ProductDetails = () => {
                     <p>Tertiary Institutions across the country have trusted FlexiSAF to support their quest to deliver quality education to millions of Nigerian students while ensuring smooth running  of their institutions.
                         
                     </p>
+                    <div>
+                        <li>Secure your business now</li>
+                        <li>Now how much profits you make dialy</li>
+                        <li>Keep track of cash flows both income and expenses </li>
+                    </div>
+                    <div>
+                       <center>
+                       <button className='Learn-More-Btn'>Visit site</button>
+                        </center> 
+                    </div>
                 </div>
               
                 

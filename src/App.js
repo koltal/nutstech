@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import MenuIcon from '@mui/icons-material/Menu';
 import nutscoders from './components/nutscoders.png';
 import logo from './components/logo.png';
 import './App.css';
@@ -30,6 +31,9 @@ function App() {
                         <Link to='about'>About</Link>
                         <Link className='contact-btn' to='contact'>Contact</Link>
                     </nav>
+                    <div className='Menu-Icon-Container'>
+                      <span><MenuIcon></MenuIcon></span>
+                    </div>
                 </div>
                 </div>
                 <Routes>
