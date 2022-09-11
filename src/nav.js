@@ -26,19 +26,7 @@ const Navbar = () => {
 
 const [navbarOpen, setNavbarOpen] = useState(false);
 
-//   function openModal() {
-//     setIsOpen(true);
-//     console.log('modal clik');
-//   }
 
-//   function afterOpenModal() {
-//     // references are now sync'd and can be accessed.
-//     subtitle.style.color = '#f00';
-//   }
-
-//   function closeModal() {
-//     setIsOpen(false);
-//   }
     const handleToggle = () => {
         setNavbarOpen(!navbarOpen)
         console.log('yeah');
@@ -68,7 +56,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                     <div className='Menu-Icon-Container'>
                       <span><MenuIcon onClick={handleToggle}>{navbarOpen ? "Close" : "Open"}</MenuIcon></span>
                       <ul className={`menuNav ${navbarOpen ? " showMenu" : ""}`}>
-                        <span className='Close-Btn'><CloseIcon onClick={closeMenu}></CloseIcon></span>
+                        {/* <span className='Close-Btn'><CloseIcon onClick={closeMenu}></CloseIcon></span> */}
                       <Link 
                         to=''
                         onClick={closeMenu}>Company</Link>
@@ -77,24 +65,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
                         <Link to='contact' onClick={closeMenu}>Contact</Link>
 
                       </ul>
-                      {/* <Modal
-                        isOpen={modalIsOpen}
-                        onAfterOpen={afterOpenModal}
-                        onRequestClose={closeModal}
-                        // style={customStyles}
-                        contentLabel="Example Modal"
-                      >
-
-                       <div className='Modal_Container'>
-                        <span><CloseIcon onClick={closeModal}></CloseIcon></span>
-                        <div className='Mobile-Links'>
-                        <Link to='' onClick={closeModal}>Company</Link><br></br>
-                        <Link to='products' onClick={closeModal}>Product</Link><br></br>
-                        <Link to='about' onClick={closeModal}>About</Link><br></br>
-                        <Link className='contact-btn' onClick={closeModal} to='contact'>Contact</Link><br></br>
-                        </div>
-                       </div>
-                      </Modal> */}
+                      
               
                     </div>
                 </div>
