@@ -186,7 +186,7 @@ body{
 }
 .Footer-Container{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 2fr 1fr 1fr 1fr;
   margin: 0 auto;
   width: 80%;
   grid-gap: 40px;
