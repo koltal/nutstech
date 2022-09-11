@@ -1,11 +1,60 @@
+.menuNav {
+  overflow-y: scroll;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  /* background: darkcyan; */
+  left: 0;
+  bottom: 10;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 100%;
+  z-index: 9;
+}
+.Close-Btn{
+  float: right;
+  padding-right: 50px;
+}
+.menuNav.showMenu {
+  width: 100%;
+  background: #EFF7FF;
+}
+
+.Menu-Icon-Container a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: black;
+  /* text-transform: uppercase; */
+  /* font-weight: bold; */
+}
+
+/* .menuNav li:first-child {
+  margin-top: 7rem;
+} */
+
+
+
+
+
+
 body{
   background-color: #EFF7FF;
   /* width: 100%; */
 }
 .Modal_Container{
-  background-color: red;
+  /* background-color: red; */
   width: 100%;
 }
+.Mobile-Links a{
+  padding-top: 24px;
+  text-decoration: none;
+}
+.Modal_Container a {
+  padding: 32px;
+}
+
 .Header-Section{
   background-color: #EFF7FF;
   /* background-color: aquamarine; */
@@ -43,10 +92,17 @@ body{
   color: black;
   font-weight: light;
   text-decoration: none;
+  pointer-events: stroke;
+  
+}
+.Nav-Items nav a:hover{
+  background-color: #d9ebfc;
+  color: black;
   
 }
 .Nav-Items nav{
   float: right;
+  
  
 }
 .Menu-Icon-Container{
@@ -302,6 +358,9 @@ starts here.........*/
     opacity: 1;
     padding-right: 15px;
     font-size: 23px;
+  }
+  .Menu-Icon-Container Modal {
+    width: 100%;
   }
  .MenuIcon{
   font-size: 40px;
