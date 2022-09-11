@@ -39,7 +39,7 @@ const [navbarOpen, setNavbarOpen] = useState(false);
         
                <div className='Header-Section'>
                 <div className='Nav-Logo'>
-                <img src={logo1} alt="" srcset=""width='70px' height='50px' />
+                {/* <img src={logo1} alt="" srcset=""width='70px' height='50px' /> */}
                     <Link to='/'>  <h3>Nutscoders</h3></Link>
                   
                    

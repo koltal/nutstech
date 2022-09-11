@@ -11,7 +11,7 @@ const ProductDetails = () => {
                 </div>
                 <div>
                     <h2>Hospital Record Management System (HRMS)</h2>
-                    <p>Tertiary Institutions across the country have trusted FlexiSAF to support their quest to deliver quality education to millions of Nigerian students while ensuring smooth running  of their institutions.
+                    <p>Business is made Easy with bime Know your business output daily Intelligent business built right into the heart you add sales and expenses you view profit and revenue genereted daily, monthly per annum
                         
                     </p>
                 </div>
@@ -23,7 +23,7 @@ const ProductDetails = () => {
                
                 <div>
                     <h2>My School Repo</h2>
-                    <p>Tertiary Institutions across the country have trusted FlexiSAF to support their quest to deliver quality education to millions of Nigerian students while ensuring smooth running  of their institutions.
+                    <p>Business is made Easy with bime Know your business output daily Intelligent business built right into the heart you add sales and expenses you view profit and revenue genereted daily, monthly per annum
                         
                     </p>
                 </div>
@@ -40,7 +40,7 @@ const ProductDetails = () => {
                
                 <div>
                     <h2>BIME</h2>
-                    <p>Tertiary Institutions across the country have trusted FlexiSAF to support their quest to deliver quality education to millions of Nigerian students while ensuring smooth running  of their institutions.
+                    <p>Business is made Easy with bime Know your business output daily Intelligent business built right into the heart you add sales and expenses you view profit and revenue genereted daily, monthly per annum
                         
                     </p>
                     <div>
