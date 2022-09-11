@@ -2,6 +2,10 @@ body{
   background-color: #EFF7FF;
   /* width: 100%; */
 }
+.Modal_Container{
+  background-color: red;
+  width: 100%;
+}
 .Header-Section{
   background-color: #EFF7FF;
   /* background-color: aquamarine; */
@@ -296,8 +300,12 @@ starts here.........*/
   .Menu-Icon-Container{
     float: right;
     opacity: 1;
-    padding-right: 5px;
+    padding-right: 15px;
+    font-size: 23px;
   }
+ .MenuIcon{
+  font-size: 40px;
+ }
   .Home-display-pic{
     padding: 24px;
     width: auto;
