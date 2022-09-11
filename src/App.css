@@ -82,6 +82,7 @@ body{
   color: black;
 }
 .Nav-Logo h3 {
+  padding-top: 7px;
   /* color: blue; */
   /* padding-left: 12px; */
   font-weight: bolder;
