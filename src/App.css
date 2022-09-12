@@ -355,6 +355,12 @@ starts here.........*/
   grid-template-columns: repeat(1,1fr)
 
   } */
+  .App {
+    font-size: 16px;
+    font-weight: 300;
+    /* line-height: 20px; */
+    text-align: justify;
+  }
   .Nav-Items nav{
     display: none;
     /* padding-top: 25px; */
@@ -413,7 +419,7 @@ starts here.........*/
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
-    width: 90%;
+    width: 95%;
     grid-gap: 20px;
     padding-bottom: 30px;
   }
