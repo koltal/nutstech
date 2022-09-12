@@ -1,4 +1,5 @@
 import noble from './noble.png';
+import logoSM from './logoSM.png';
 const Testimonials = () => {
     return ( 
         <div className="Overall-Container-Testimonials">
@@ -18,37 +19,40 @@ const Testimonials = () => {
                         </span>
                     </div>
                     <div className='Testimonial-name-image-container'>
-                    <img className='Testimonial-image' src={noble} alt="" srcset=""width='50px' height='50px' />
+                    <img className='Testimonial-image' src={noble} alt="" srcset=""width='30px' height='30px' />
                     <span className='Testimo-name'>Noble Intellects Academy</span>
                     </div>
                 </div>
                 <div className="Testimonial-Card">
                     
                     <div>
-                        <span>
+                        <span className='Testimony-Remark'>
                             Nutscoders have provided the software products
                             that have leverage our school from traditional ways
                             of doing things to modern 
                         </span>
                     </div>
                     <div className='Testimonial-name-image-container'>
-                    <img src={noble} alt="" srcset=""width='50px' height='50px' />
-                    <span className='Testimo-name'> Salihijo Memorial Academy </span>
+                    <img className='Testimonial-image' src={logoSM} alt="" srcset=""width='30px' height='30px' />
+                    <span className='Testimo-name'>Salihijo Science Academy</span>
                     </div>
                 </div>
                 <div className="Testimonial-Card">
                     
                     <div>
-                        <span>
-                            Bime have made me know that technology is here to solve 
-                            problem of the immediate community 
+                        <span className='Testimony-Remark'>
+                            Nutscoders have provided the software products
+                            that have leverage our school from traditional ways
+                            of doing things to modern 
                         </span>
                     </div>
                     <div className='Testimonial-name-image-container'>
-                    <img src={noble} alt="" srcset=""width='50px' height='50px' />
-                    <span className='Testimo-name'> Rahusa Enterprise </span>
+                    <img className='Testimonial-image' src={noble} alt="" srcset=""width='30px' height='30px' />
+                    <span className='Testimo-name'>Rahusa Enterprise</span>
                     </div>
                 </div>
+               
+                
             </div>
             
         </div>

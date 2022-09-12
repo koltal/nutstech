@@ -230,26 +230,28 @@ body{
   padding: 20px;
   border-bottom-right-radius: 12px;
   border-top-left-radius: 12px;
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
+  box-shadow: 0 0 9px 3px rgba(132, 131, 131, 0.2);
 }
 .Testimonial-name-image-container{
   display: flex;
-  border-top: 1px solid #dddd;
-  margin: 0 auto;
+  /* border-top: 1px solid #dddd; */
+ flex-direction: row;
 }
 .Testimo-name{
-  padding-top: 25px;
+  padding-top: 35px;
   padding-left: 25px;
-  font-weight: bold;
+  font-weight: 400
   /* color: blue; */
 }
 .Testimonial-image{
   border-radius: 50%;
   border: 1px solid #ddd;
   margin-top: 20px;
+  padding: 5px;
 }
 .Testimony-Remark{
-  line-height: 30px;
+  line-height: 20px;
 }
 .Overall-Footer-Container{
   background-color: black;
@@ -350,11 +352,11 @@ starts here.........*/
 
 @media screen and (max-width: 550px){
 
-  .Header-Section{
+  /* .Header-Section{
  background-color: white;
  box-shadow: 0 0 9px 3px rgba(132, 131, 131, 0.2);
 
-  }
+  } */
   .App {
     font-size: 16px;
     font-weight: 300;
