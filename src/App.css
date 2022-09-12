@@ -359,7 +359,7 @@ starts here.........*/
     font-size: 16px;
     font-weight: 300;
     /* line-height: 20px; */
-    text-align: justify;
+    /* text-align: justify; */
   }
   .Nav-Items nav{
     display: none;
