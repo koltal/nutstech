@@ -350,11 +350,11 @@ starts here.........*/
 
 @media screen and (max-width: 550px){
 
-  /* .Header-Section{
-  display: grid;
-  grid-template-columns: repeat(1,1fr)
+  .Header-Section{
+ background-color: white;
+ box-shadow: 0 0 9px 3px rgba(132, 131, 131, 0.2);
 
-  } */
+  }
   .App {
     font-size: 16px;
     font-weight: 300;
@@ -419,7 +419,7 @@ starts here.........*/
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
-    width: 95%;
+    width: 99%;
     grid-gap: 20px;
     padding-bottom: 30px;
   }
