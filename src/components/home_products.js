@@ -1,5 +1,6 @@
 import background from './background.png';
 import HRMSLOGO from './HRMSLOGO.png';
+import schoolRepo from './schoolRepo.png';
 import {  Link } from 'react-router-dom';
 const Home_Products = () => {
     return ( 
@@ -37,8 +38,9 @@ const Home_Products = () => {
                 </div>
                 <div className="Card-Products">
                     <div>
-                        <div>
-                            <h2>MySchoolRepo</h2>
+                        <div className='schoolRepo'><center>
+                        <img src={schoolRepo} width='150px' height='100px'/>
+                            <h2>My School Repo</h2></center>
                         </div>
                         <div>
                             <span>Business is made
@@ -59,9 +61,11 @@ const Home_Products = () => {
                 </div>
                 <div className="Card-Products">
                     <div>
-                        <div>
-                            {/* <h2>HRMS</h2> */}
-                            <img src={HRMSLOGO} width='70%' height='100px'/>
+                        <div><center>
+                           
+                            <img src={HRMSLOGO} width='100px' height='100px'/>
+                             <h2>Hospital Record management </h2>
+                            </center>
                         </div>
                         <div>
                             <span>Business is made
