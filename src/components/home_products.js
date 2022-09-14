@@ -63,7 +63,7 @@ const Home_Products = () => {
                     <div>
                         <div><center>
                            
-                            <img src={HRMSLOGO} width='100px' height='100px'/>
+                            <img src={HRMSLOGO} width='150px' height='100px'/>
                              <h2>Hospital Record management </h2>
                             </center>
                         </div>
